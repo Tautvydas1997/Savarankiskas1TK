@@ -9,7 +9,7 @@ int main() {
 	while (option != 9) {
 		kiek = Studentai.size();
 		option = meniu();
-
+ 
 		switch (option) {
 		case 1:
 			// prideti studenta
