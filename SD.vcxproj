@@ -127,15 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FailuKurimas.cpp" />
     <ClCompile Include="Funkcijos.cpp" />
     <ClCompile Include="IsFailo.cpp" />
     <ClCompile Include="SD.cpp" />
+    <ClCompile Include="Skistymas.cpp" />
     <ClCompile Include="Studentas.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bibliotekos.h" />
+    <ClInclude Include="FailuKurimas.h" />
     <ClInclude Include="Funkcijos.h" />
     <ClInclude Include="IsFailo.h" />
+    <ClInclude Include="Skirstymas.h" />
     <ClInclude Include="Studentas.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
