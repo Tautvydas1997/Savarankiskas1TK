@@ -80,4 +80,4 @@ void Skirstymas() {
     auto duration3 = duration_cast<milliseconds>(stop3 - start3);
     cout << "Irasyti studentus i du skirtingus failus uztruko: " << duration3.count() << "ms." << endl;
 
-}
+} 
