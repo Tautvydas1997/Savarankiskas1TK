@@ -1,7 +1,7 @@
 #include "bibliotekos.h"
 
 int main() {
-	int option = 0, kiek = 0;
+	int option = 0, kiek = 0, kiekStud = 0;
 	string r, bud = "";
 	Studentas S;
 	vector<Studentas> Studentai;
@@ -31,7 +31,20 @@ int main() {
 			FailoSkaitymas();
 			cout << endl;
 			break;
+
+		case 4:
+			cout << "Kiek studentu sugeneruoti faile?" << endl;
+			cin >> kiekStud;
+			FailuKurimas(kiekStud);
+			cout << "Failas sekmingai sukurtas!" << endl;
+			break;
+
+		case 5:
+			Skirstymas();
+			cout << "Studentai sekmingai isrusiuoti!" << endl;
+			break;
 		}
+
 	}
 	return 0;
 }
