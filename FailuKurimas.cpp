@@ -5,7 +5,7 @@ void FailuKurimas(int c) {
 	auto start = high_resolution_clock::now();
 	ofstream output("Studentai.txt");
 	string vardas = "Vardas";
-	string pavarde = "Pavare";
+	string pavarde = "Pavarde";
 	output << setw(15) << left << vardas << setw(15) << left << pavarde << setw(5) << left << "ND1" << setw(5) << left << "ND2"
 		<< setw(5) << left << "ND3" << setw(5) << left << "ND4" << setw(5) << left << "ND5" << setw(10) << left << "Egzaminas" << endl;
 
